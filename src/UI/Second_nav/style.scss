@@ -1,0 +1,49 @@
+@media (max-width:930px) {
+
+    .Under_Nav {
+        font-size: 12.8px !important;
+    }
+}
+
+.stiky {
+    position: -webkit-sticky !important;
+    position: sticky !important;
+    top: 0 !important;
+    position: sticky !important;
+    z-index: 5 !important;
+    background: white !important;
+    margin-top: -70px !important;
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.scrollbar{
+    width: 100%;
+    overflow: scroll;
+}
+
+
+
+@media (max-width:391px) {
+
+
+        .scrollbar{
+            padding-left: 170px !important;
+            width: 90%;
+        }
+}
+
+@media (max-width:280px) {
+
+
+    .scrollbar{
+        padding-left: 230px !important;
+    }
+}
+
+@media (max-width:581px) {
+
+    .scrollbar{
+        padding-left: 50px;
+    }
+}

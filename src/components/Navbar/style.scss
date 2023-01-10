@@ -1,0 +1,85 @@
+.slash{
+    position: absolute;
+    text-align: center;
+    color:gray;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 40px;
+    height: 20px;
+    font-size: 10px;
+    margin-left: -42px;
+    margin-top: 2.8px;  
+}
+.burger_menu{
+    margin-left: -16.5%;
+    color: #BEBFC1 ;
+    margin-right: 30%;
+}
+.nav_bg{
+    background: #24292F;
+
+}
+.w-90{
+    width: 90.5% !important;
+}
+.list_words{
+    font-size: 15px !important;
+    border-top: 0.5px solid gray;
+    padding-top:10px ;
+    margin-top:10px ;
+}
+.slash-md{
+    position: absolute;
+    text-align: center;
+    color:gray;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 40px;
+    height: 20px;
+    font-size: 10px;
+    right: 2%;
+    margin-top: 3px;  
+    text-decoration:  none;
+}
+.mb-mnogo{
+    margin-bottom: 70px;
+}
+@media (max-width:1300px ) and ( min-width:990px) {
+    .some_response{
+        width: 160px !important;
+    }
+}
+@media(min-width:768px){
+    #d-n{
+        display: none !important;
+    }
+}
+@media (max-width:768px) {
+
+    .me-0{
+        margin-right: -70px !important;
+    }
+    .white_logo{
+        margin-left: auto;
+        
+    }
+    .md-80{
+        width: 80% !important;
+    }
+}
+@media (max-width:560px) {
+    .me-0{
+        margin-right: -50px !important;
+    }
+}
+@media (max-width:390px) {
+    .me-0{
+        margin-right: -30px !important;
+    }
+}
+@media (max-width:290px) {
+    .me-0{
+        margin-right: -10px !important;
+    }
+}

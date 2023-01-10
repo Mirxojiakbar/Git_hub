@@ -1,0 +1,58 @@
+.avatar{
+    margin-top: -30px;
+    border: 1px solid gray;
+    position: relative;
+    z-index: 999;
+}
+
+.arrow2{
+    background: white;
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    cursor: pointer;
+    width: 90%;
+    display: block !important;
+    margin-top: 20px;
+}
+.arrow{
+    position: absolute !important;
+    background: white;
+    padding: 8px;
+    border-radius: 100px;
+    border: 1px solid grey;
+    margin-top: -80px;
+    margin-left: 70%;
+    cursor: pointer;
+        z-index: 999;
+}
+.arrow:hover{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 110px;
+    color: blue;
+    font-size: 14.5px;
+}
+
+.d-noe{
+    display: none;
+}
+.arrow:hover .d-noe {
+    display: inline-block;
+}
+.buttons-width{
+    width: 90%;
+    height: 40px;
+}
+.will-mb{
+    margin-bottom: 80px;
+}
+@media(max-width:767px){
+    .avatar{
+        margin-top: 30px;
+        display: inline-block;
+        width: 20% !important;
+    }
+    .md-inline{
+        display: inline;
+    }
+}

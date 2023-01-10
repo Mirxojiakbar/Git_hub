@@ -1,0 +1,51 @@
+.stick {
+    position: absolute !important;
+    right: 0;
+    margin-top: 25px;
+
+}
+.next{
+    color: blue;
+    display: flex;
+    align-items: center;
+}
+.mt-{
+    margin-bottom: -10px;
+}
+.some-line{
+    margin-left: -20px;
+    width: 160px;
+    margin-top: 30px;
+    border-bottom: 2px solid green;
+}
+@media (max-width:1199px) {
+    .some_input {
+        width: 90% !important;
+    }
+
+    .stick {
+        margin-top: -38px;
+    }
+}
+
+@media (max-width:767px) {
+    .stick {
+        display: none;
+
+    }
+    .some_input {
+        width: 100% !important;
+    }
+    .md-center{
+        display: flex;
+        justify-content: center;
+    }
+
+}
+@media (max-width:467px) {
+    .some_btn {
+        width: 100% !important;
+    }
+
+
+}

@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+.some-family{
+    font-family: 'Bungee', cursive;
+    font-size: 12px;
+    width: 18%;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.w-45{
+    width: 44%;
+}
+.sm-yes{
+    display: none !important;
+}
+.ex-sm-yes{
+    display: none !important;
+}
+@media (max-width:1400px) {
+    .pochta{
+        width: 45% !important;
+    }
+    .some-family{
+        font-family: 'Bungee', cursive;
+        font-size: 10px;
+        width: 19%;
+        gap: 10px;
+        display: flex;
+        align-items: center;
+        margin-right: 10px;
+        text-decoration: none;
+    }
+}
+
+@media (max-width:1121px) {
+    .pochta{
+        width: 48% !important;
+    }
+    .some-family{
+        font-family: 'Bungee', cursive;
+        font-size: 9px;
+        width: 20%;
+        gap: 10px;
+        display: flex;
+        align-items: center;
+        margin-right: 10px;
+        text-decoration: none;
+    }
+}
+
+
+@media (max-width:946px) {
+    .some-family{
+        font-family: 'Bungee', cursive;
+        font-size: 7px;
+        width: 25%;
+        gap: 10px;
+        display: flex;
+        align-items: center;
+        margin-right: 10px;
+        text-decoration: none;
+    }
+}
+@media (max-width:545px) {
+    .pochta{
+        width: 100% !important;
+        font-size: 10px !important;
+    }
+    .videos{
+        width: 100%;
+    }
+    .some-family{
+        font-family: 'Bungee', cursive;
+        font-size: 5px;
+        width: 30%;
+        gap: 10px;
+        display: flex;
+        align-items: center;
+        margin-right: 10px;
+        text-decoration: none;
+    }
+    .sm-none{
+    display: none !important;
+    }
+    .sm-yes{
+        display: block !important;
+    }
+}
+@media (max-width: 375px) {
+    .pochta{
+        font-size: 6px !important;
+    }
+    .some-family{
+        font-family: 'Bungee', cursive;
+        font-size: 5px;
+        width: 50%;
+        gap: 10px;
+        display: flex;
+        align-items: center;
+        margin-right: 10px;
+        text-decoration: none;
+    }
+    .ex-sm-none{
+        display: none !important;
+    }
+    .ex-sm-yes{
+        display: block !important;
+        display: flex; 
+        align-items:center;
+    }
+}
